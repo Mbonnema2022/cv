@@ -1,0 +1,17 @@
+body {
+	background-color: #92a2ff;
+}
+
+@keyframes flake {
+	0% {
+		transform: translate3d(10vw, 0, 0);
+	}
+	100% {
+		transform: translate3d(3vw, 100vh, 0);
+	}
+}
+
+.snowflake {
+	animation: flake 10s linear 3;
+	font-size: 2rem;
+}
